@@ -6,3 +6,20 @@ build/
 
 # editor config
 .vscode/
+.idea/
+
+# CMake
+
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts
+Testing
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# app
+ExtendedKF
+ExtendedKF.cbp
+output.txt
