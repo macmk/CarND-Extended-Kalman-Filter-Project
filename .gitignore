@@ -23,3 +23,5 @@ CTestTestfile.cmake
 ExtendedKF
 ExtendedKF.cbp
 output.txt
+data_in.txt
+data_out.txt
