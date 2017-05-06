@@ -3,6 +3,9 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 
+## Final Note
+I've started this project on first data version, so it's tested against `sample-laser-radar-measurement-data-1.txt` and `sample-laser-radar-measurement-data-2.txt`. RMSE with first file is [0.0651649, 0.0605378, 0.54319, 0.544191], so it satisfies project requirements. EKF is implemented with the same steps as in lectures by replacing `TODOs` from template code. To compile, run and test this solution please follow steps in `Basic Build Instructions` section below.
+
 ## Dependencies
 
 * cmake >= 3.5
@@ -20,7 +23,7 @@ Self-Driving Car Engineer Nanodegree Program
 
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make` 
+3. Compile: `cmake .. && make`
    * On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
 4. Run it: `./ExtendedKF path/to/input.txt path/to/output.txt`. You can find
    some sample inputs in 'data/'.
